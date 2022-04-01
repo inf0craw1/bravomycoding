@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from "react-router-dom";
+import './css/main.scss';
 
 const rootElem = document.getElementById('root');
 if(!rootElem) throw new Error('Filad to load Root Element');

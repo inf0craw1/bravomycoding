@@ -4,11 +4,11 @@ import Main from "../pages/Main";
 
 const ROUTES:RouteObject[] = [
   { path: paths.main, element: <Main/> },
+  { path: '*', element: <Main/> },
 ];
 
 const RenderRoutes = () => {
-  const element = useRoutes(ROUTES);
-  return element;
+  return useRoutes(ROUTES);
 };
 
 export default RenderRoutes;

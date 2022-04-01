@@ -2,8 +2,8 @@
 export default function Main() {
 
   return (
-    <>
-      <h2>Main</h2>
-    </>
+    <div className="base-wrapper page">
+      asdf
+    </div>
   );
 }
