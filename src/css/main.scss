@@ -13,7 +13,8 @@
   height: 100%;
 }
 .page {
-  margin: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .flex {
@@ -47,6 +48,19 @@
 
 // Navbar
 .navbar {
-  height: 80px;
+  height: 60px;
   border-bottom: 1px solid #eeeeee;
+  .nav-pages {
+    display: flex;
+    .page-item {
+      padding: 4px;
+      cursor: pointer;
+      &:hover {
+        background: #eeeeee;
+      }
+      & + .page-item {
+        margin-left: 8px;
+      }
+    }
+  }
 }

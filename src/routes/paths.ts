@@ -1,5 +1,5 @@
 
 export const paths = {
   main: '/main',
-  login: '/login',
+  auth: '/auth',
 };
