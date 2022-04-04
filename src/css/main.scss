@@ -16,6 +16,9 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.cursor-pointer {
+  cursor: pointer;
+}
 
 .flex {
   display: flex;
@@ -50,11 +53,13 @@
 .navbar {
   height: 60px;
   border-bottom: 1px solid #eeeeee;
+  .logo {
+    padding: 2px 4px;
+  }
   .nav-pages {
     display: flex;
     .page-item {
       padding: 4px;
-      cursor: pointer;
       &:hover {
         background: #eeeeee;
       }
